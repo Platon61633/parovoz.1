@@ -19,8 +19,6 @@ footer{
     display: grid;
     width: 100vw;
     color: white;
-    display: flex;
-    justify-content: space-around;
 }
 .shops p{
     width: 100vh;
