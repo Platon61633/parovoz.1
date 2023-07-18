@@ -16,6 +16,7 @@ footer{
     margin-right: 5px;
 }
 .shops{
+    display: grid;
     width: 100vw;
     color: white;
     display: flex;
