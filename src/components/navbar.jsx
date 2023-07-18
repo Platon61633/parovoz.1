@@ -8,9 +8,20 @@ import News from './news';
 import Katalog from './katalog';
 import Undefind from './undefind';
 import menu from '../imagin/cil-menu.svg';
+import { useState } from 'react';
 
 function NavBar() {
 
+  const [VisibCanzas, SetVisibCanzas] = useState(true);
+
+  const canzas = () => {
+    if (VisibCanzas) {
+      SetVisibCanzas(false)
+    }
+    else{
+      SetVisibCanzas(true)
+    }
+  }
   
   return (
       <BrowserRouter>
@@ -20,8 +31,14 @@ function NavBar() {
         <strong style={{fontFamily:"Wide Latin"}}>ParoVoz</strong>
         </div>
         <OffCanzas/>
-        <button className='menu'><img src={menu}/></button>
+        <button onClick={canzas} className='menu'><img src={menu}/></button>
         </div>
+        {VisibCanzas
+        ?<span></span>
+        :<div className='onCanzas'>
+          <button onClick={canzas}>qwertyui</button>
+        </div>
+        }
         <Routes>
           <Route path='/' element={<Navigate replace to='/news'/>}/>
           <Route path='/news' element={<News/>}/>
