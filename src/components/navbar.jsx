@@ -44,7 +44,7 @@ function NavBar() {
           <Route path='/news' element={<News/>}/>
           <Route path='/katalog' element={<Katalog/>}/>
           <Route path='/undefind' element={<Undefind/>}/>
-          <Route path='/*' element={<Navigate replace to='/undefind'/>}/>
+          <Route path='*' element={<Navigate replace to='/undefind'/>}/>
         </Routes>
         </BrowserRouter>
   );
