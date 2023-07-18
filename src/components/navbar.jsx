@@ -9,6 +9,7 @@ import Katalog from './katalog';
 import Undefind from './undefind';
 import menu from '../imagin/cil-menu.svg';
 import { useState } from 'react';
+import cross from '../imagin/close.png'
 
 function NavBar() {
 
@@ -36,7 +37,7 @@ function NavBar() {
         {VisibCanzas
         ?<span></span>
         :<div className='onCanzas'>
-          <button onClick={canzas}>qwertyui</button>
+          <button style={{width: '50px'}} onClick={canzas}><img src={cross}/></button>
         </div>
         }
         <Routes>
