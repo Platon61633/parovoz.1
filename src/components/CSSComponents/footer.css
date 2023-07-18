@@ -1,13 +1,14 @@
 footer{
     width: 100%;
-    display: flex;
     font-size: 25px;
-    justify-content: space-around;
     padding: 25px 0;
     background-image: url(../../imagin/smoke3.jpg);
 }
 #kontakts{
     font-family: "Wide Latin";
+    display: flex;
+    justify-content: space-around;
+    width: 100vw;
     flex-wrap: wrap;
 }
 .item img{
@@ -16,10 +17,10 @@ footer{
     margin-right: 5px;
 }
 .shops{
-    display: grid;
-    width: 100vw;
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 100%;
     color: white;
-}
-.shops p{
-    width: 100vh;
 }
