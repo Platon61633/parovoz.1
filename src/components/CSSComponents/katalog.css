@@ -1,0 +1,19 @@
+.katalog{
+    display: flex;
+    flex-wrap: wrap;
+    background:url(../../imagin/smoke3.jpg) no-repeat center/cover;
+    background-clip: padding-box;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 30px;
+  margin: 25px 0;
+}
+.selFilter{
+    padding: 8px;
+}
+.product{
+    color: white;
+    width: 100%;
+    border: 2px solid black;
+    padding: 5px;
+}

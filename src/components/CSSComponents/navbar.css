@@ -1,0 +1,13 @@
+.logo{
+    vertical-align: middle;
+    width: 75px;
+    height: 75px;
+    padding: 5px;
+}
+.panel{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 34px;
+    background-color: #f9e2ce;
+}
