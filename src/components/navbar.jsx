@@ -28,11 +28,11 @@ function NavBar() {
       <BrowserRouter>
       <div className='panel'>
       <div>
-        <img src={logo} className='logo'/>
+        <img src={logo} alt='LOGO' className='logo'/>
         <strong style={{fontFamily:"Wide Latin"}}>ParoVoz</strong>
         </div>
         <OffCanzas canzas={canzas}/>
-        <button onClick={canzas} className='menu'><img src={menu}/></button>
+        <button onClick={canzas} className='menu'><img alt='MENU' src={menu}/></button>
         </div>
         {VisibCanzas
         ?<span></span>

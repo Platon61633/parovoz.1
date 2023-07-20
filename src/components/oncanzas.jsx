@@ -5,7 +5,7 @@ import {  Link } from 'react-router-dom';
 const OnCanzas = ({canzas}) => {
     return(
         <div className='onCanzas'>
-        <img src={cross} width={50} onClick={canzas}/>
+        <img src={cross} alt='ЗАКРЫТЬ' width={50} onClick={canzas}/>
         <div className='CanzNav'>
         <Link to='/news' className='sfaw'>Новости</Link>
         <Link to='/katalog'className='sfaw'>Каталог</Link>

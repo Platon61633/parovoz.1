@@ -17,7 +17,7 @@ const News = () => {
                 e => 
                     <div className='post'>
                     <div className='text'>{e.text}</div>
-                    <img src={e.im}/>
+                    <img alt='POST-IMG' src={e.im}/>
                     </div>
                 
             )}
