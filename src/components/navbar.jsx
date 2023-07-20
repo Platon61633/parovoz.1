@@ -1,6 +1,6 @@
 import { BrowserRouter, Navigate, Route, Routes } from 'react-router-dom';
 import logo from '../imagin/icon-par-NsIKEuFGm-transformed (1).png';
-import './CSSComponents/navbar.css';
+import '../CSSComponents/navbar.css';
 import '../CSS/Wide_Latin/stylesheet.css';
 import '../CSS/reset.css';
 import OffCanzas from './offcanzas';

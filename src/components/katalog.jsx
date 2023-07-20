@@ -1,5 +1,5 @@
 import React, { useMemo, useState, useContext } from 'react'
-import './CSSComponents/katalog.css'
+import '../CSSComponents/katalog.css'
 import Filter from './filter';
 
 const Katalog = () => {

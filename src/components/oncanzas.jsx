@@ -1,5 +1,5 @@
 import React from 'react';
-import './CSSComponents/canzas.css';
+import '../CSSComponents/canzas.css';
 import cross from '../imagin/close.png'
 import {  Link } from 'react-router-dom';
 const OnCanzas = ({canzas}) => {

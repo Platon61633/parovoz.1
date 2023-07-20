@@ -1,5 +1,5 @@
 import React from 'react'
-import './CSSComponents/katalog.css'
+import '../CSSComponents/katalog.css'
 
 const Filter = ({Types, onChange, filter, SetFilter}) => {
 

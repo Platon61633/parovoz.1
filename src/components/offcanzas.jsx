@@ -1,6 +1,6 @@
 import React from 'react';
 import {  Link } from 'react-router-dom';
-import './CSSComponents/canzas.css';
+import '../CSSComponents/canzas.css';
 
 const OffCanzas = () => {
     return(

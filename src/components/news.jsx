@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import jam from '../imagin/jam-bablegum.jpg';
 import close from '../imagin/close.png';
-import './CSSComponents/news.css';
+import '../CSSComponents/news.css';
 
 
 

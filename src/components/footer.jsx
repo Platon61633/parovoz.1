@@ -1,5 +1,5 @@
 import React from 'react';
-import './CSSComponents/footer.css'
+import '../CSSComponents/footer.css'
 import Kontakts from './kontakts';
 import Shops from './shops';
 
