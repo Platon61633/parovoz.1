@@ -8,7 +8,7 @@ footer{
     font-family: "Wide Latin";
     display: flex;
     justify-content: space-around;
-    width: 100vw;
+    width: 100%;
     flex-wrap: wrap;
 }
 .item img{
@@ -23,4 +23,10 @@ footer{
     flex-wrap: wrap;
     width: 100%;
     color: white;
+}
+
+@media (max-width: 900px){
+    #kontakts{
+        font-size: 20px;
+    }
 }

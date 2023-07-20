@@ -9,7 +9,7 @@ import Katalog from './katalog';
 import Undefind from './undefind';
 import menu from '../imagin/cil-menu.svg';
 import { useState } from 'react';
-import cross from '../imagin/close.png'
+import OnCanzas from './oncanzas';
 
 function NavBar() {
 
@@ -31,14 +31,12 @@ function NavBar() {
         <img src={logo} className='logo'/>
         <strong style={{fontFamily:"Wide Latin"}}>ParoVoz</strong>
         </div>
-        <OffCanzas/>
+        <OffCanzas canzas={canzas}/>
         <button onClick={canzas} className='menu'><img src={menu}/></button>
         </div>
         {VisibCanzas
         ?<span></span>
-        :<div className='onCanzas'>
-          <button style={{width: '50px'}} onClick={canzas}><img src={cross}/></button>
-        </div>
+        :<OnCanzas canzas={canzas}/>
         }
         <Routes>
           <Route path='/' element={<Navigate replace to='/news'/>}/>
